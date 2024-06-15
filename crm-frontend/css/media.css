@@ -1,0 +1,211 @@
+@media (max-width: 1172px) {
+    .btn__change-client {
+        margin-bottom: 5px;
+    }
+
+    .btn__delete-client {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 1004px) {
+
+    .stroke-1 {
+        max-width: 120px;
+        padding-left: 10px;
+        background-position: 22px;
+    }
+
+    .td__id {
+        width: 100px;
+        padding: 20px 10px;
+    }
+
+    .stroke-2 {
+        padding-left: 10px;
+        background-position: 145px, 155px;
+    }
+
+    .td__initial {
+        width: 170px;
+        padding: 10px 10px;
+    }
+
+    .stroke-3 {
+        padding-left: 10px;
+        background-position: 60px 15px;
+    }
+
+    .td__create {
+        width: 110px;
+        padding: 10px;
+    }
+
+    .stroke-4 {
+        max-width: 110px;
+        padding-left: 10px;
+        background-position: 70px 15px;
+    }
+
+    .td__change {
+        max-width: 100px;
+        padding: 10px 20px;
+    }
+
+    .stroke-5 {
+        padding-left: 5px;
+    }
+
+    .stroke-6 {
+        padding-left: 15px;
+    }
+}
+
+@media (max-width: 860px) {
+    .stroke-2 {
+        width: 150px;
+        background-position: 63px 15px, 73px 17px;
+    }
+
+    .td__initial {
+        width: 150px;
+    }
+
+    .stroke-3 {
+        padding-left: 15px;
+        background-position: 65px 15px;
+    }
+
+    .td__create {
+        padding: 10px 5px;
+    }
+
+    .stroke-4 {
+        padding-left: 20px;
+        background-position: 80px 15px;
+    }
+
+    .td__change {
+        padding: 10px 10px;
+    }
+
+    .stroke-5 {
+        padding-left: 20px;
+    }
+
+    .td__contacts {
+        padding-left: 15px;
+    }
+
+    .stroke-6 {
+        padding-left: 30px;
+    }
+
+    .td__use {
+        width: 160px;
+        padding: 10px;
+    }
+
+    .btn__change-client {
+        margin-bottom: 5px;
+    }
+
+    .btn__delete-client {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        margin-bottom: 30px;
+    }
+
+    .header__container {
+        justify-content: center;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .heading__link {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__svg {
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__form {
+        display: none;
+    }
+
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .main__table {
+        overflow-y: auto;
+    }
+
+    .table {
+        width: 728px;
+    }
+
+    .td__initial {
+        width: 100px;
+    }
+
+    .stroke-1 {
+        width: 90px;
+    }
+
+    .stroke-2 {
+        width: 120px;
+        padding-left: 25px;
+        background-position: 77px 16px, 87px 17px;
+    }
+
+    .td__initial {
+        width: 130px;
+        padding-left: 5px;
+    }
+
+    .stroke-3 {
+        width: 125px;
+        padding-left: 25px;
+        background-position: 77px 16px;
+    }
+
+    .td__create {
+        padding: 10px 10px;
+    }
+
+    .stroke-4 {
+        width: 100px;
+        padding-left: 10px;
+        background-position: 72px 16px;
+    }
+
+    .stroke-5 {
+        width: 140px;
+        padding-left: 5px;
+    }
+
+    .stroke-6 {
+        padding-left: 5px;
+        width: 140px;
+    }
+
+    .td__contacts {
+        padding: 10px 5px;
+    }
+}
+
+@media (max-width: 460px) {
+  .modal__box {
+    width: 300px;
+  }
+}
+

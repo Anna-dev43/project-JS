@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script defer src="https://unpkg.com/@popperjs/core@2"></script>
+  <script defer src="https://unpkg.com/tippy.js@6"></script>
+  <script defer type="module" src="js/main.js"></script>
+  <script defer type="module" src="js/main.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__container flex">
+      <a class="heading__link">
+        <svg class="header__svg" width="50" height="50" viewBox="0 0 50 50" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <circle cx="25" cy="25" r="25" fill="#9873FF" />
+          <path
+            d="M17.2617 29.082C17.2617 30.0898 16.9102 30.8574 16.207 31.3848C15.5098 31.9121 14.4639 32.1758 13.0693 32.1758C12.3545 32.1758 11.7451 32.126 11.2412 32.0264C10.7373 31.9326 10.2656 31.792 9.82617 31.6045V29.3896C10.3242 29.624 10.8838 29.8203 11.5049 29.9785C12.1318 30.1367 12.6826 30.2158 13.1572 30.2158C14.1299 30.2158 14.6162 29.9346 14.6162 29.3721C14.6162 29.1611 14.5518 28.9912 14.4229 28.8623C14.2939 28.7275 14.0713 28.5781 13.7549 28.4141C13.4385 28.2441 13.0166 28.0479 12.4893 27.8252C11.7334 27.5088 11.1768 27.2158 10.8193 26.9463C10.4678 26.6768 10.21 26.3691 10.0459 26.0234C9.8877 25.6719 9.80859 25.2412 9.80859 24.7314C9.80859 23.8584 10.1455 23.1846 10.8193 22.71C11.499 22.2295 12.46 21.9893 13.7021 21.9893C14.8857 21.9893 16.0371 22.2471 17.1562 22.7627L16.3477 24.6963C15.8555 24.4854 15.3955 24.3125 14.9678 24.1777C14.54 24.043 14.1035 23.9756 13.6582 23.9756C12.8672 23.9756 12.4717 24.1895 12.4717 24.6172C12.4717 24.8574 12.5977 25.0654 12.8496 25.2412C13.1074 25.417 13.667 25.6777 14.5283 26.0234C15.2959 26.334 15.8584 26.624 16.2158 26.8936C16.5732 27.1631 16.8369 27.4736 17.0068 27.8252C17.1768 28.1768 17.2617 28.5957 17.2617 29.082ZM21.9287 26.6562L23.0977 25.1621L25.8486 22.1738H28.8721L24.9697 26.4365L29.1094 32H26.0156L23.1855 28.0186L22.0342 28.9414V32H19.3535V18.3242H22.0342V24.4238L21.8936 26.6562H21.9287ZM35.9824 21.9893C37.1426 21.9893 38.0508 22.4434 38.707 23.3516C39.3633 24.2539 39.6914 25.4932 39.6914 27.0693C39.6914 28.6924 39.3516 29.9492 38.6719 30.8398C37.998 31.7305 37.0781 32.1758 35.9121 32.1758C34.7578 32.1758 33.8525 31.7568 33.1963 30.9189H33.0117L32.5635 32H30.5156V18.3242H33.1963V21.5059C33.1963 21.9102 33.1611 22.5576 33.0908 23.4482H33.1963C33.8232 22.4756 34.752 21.9893 35.9824 21.9893ZM35.1211 24.1338C34.459 24.1338 33.9756 24.3389 33.6709 24.749C33.3662 25.1533 33.208 25.8242 33.1963 26.7617V27.0518C33.1963 28.1064 33.3516 28.8623 33.6621 29.3193C33.9785 29.7764 34.4766 30.0049 35.1562 30.0049C35.707 30.0049 36.1436 29.7529 36.4658 29.249C36.7939 28.7393 36.958 28.001 36.958 27.0342C36.958 26.0674 36.7939 25.3438 36.4658 24.8633C36.1377 24.377 35.6895 24.1338 35.1211 24.1338ZM41.5283 30.7432C41.5283 30.251 41.6602 29.8789 41.9238 29.627C42.1875 29.375 42.5713 29.249 43.0752 29.249C43.5615 29.249 43.9365 29.3779 44.2002 29.6357C44.4697 29.8936 44.6045 30.2627 44.6045 30.7432C44.6045 31.2061 44.4697 31.5723 44.2002 31.8418C43.9307 32.1055 43.5557 32.2373 43.0752 32.2373C42.583 32.2373 42.2021 32.1084 41.9326 31.8506C41.6631 31.5869 41.5283 31.2178 41.5283 30.7432Z"
+            fill="white" />
+        </svg>
+      </a>
+      <form class="header__form" type="submit" id="searchInput">
+        <input class="header__input" type="text" placeholder="Введите запрос" id="header-inp">
+      </form>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main__container">
+      <h2 class="main__heading">Клиенты</h2>
+      <div class="main__table" id="main__table">
+      </div>
+      <div class="create__container">
+        <button class="btn__reset btn__create" id="button-create">
+          <span class="span__svg"><svg width="23" height="16" viewBox="0 0 23 16" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M14.5 8C16.71 8 18.5 6.21 18.5 4C18.5 1.79 16.71 0 14.5 0C12.29 0 10.5 1.79 10.5 4C10.5 6.21 12.29 8 14.5 8ZM5.5 6V3H3.5V6H0.5V8H3.5V11H5.5V8H8.5V6H5.5ZM14.5 10C11.83 10 6.5 11.34 6.5 14V16H22.5V14C22.5 11.34 17.17 10 14.5 10Z" />
+            </svg>
+          </span>
+          Добавить клиента
+        </button>
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal__box" id="modal__box">
+          <div class="modal__container">
+            <h2 class="modal__heading">Новый клиент</h2>
+            <button class="btn__reset modal__close" id="modal__close">
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22.2332 7.73333L21.2665 6.76666L14.4998 13.5334L7.73318 6.7667L6.76652 7.73336L13.5332 14.5L6.76654 21.2667L7.73321 22.2333L14.4998 15.4667L21.2665 22.2334L22.2332 21.2667L15.4665 14.5L22.2332 7.73333Z"
+                  fill="#B0B0B0" />
+              </svg>
+            </button>
+          </div>
+          <form class="modal__form" id="modalform">
+            <div class="form__container">
+              <input class="input input__surname" type="text" placeholder="Фамилия*" id="surname" name="surname">
+              <input class="input input__name" type="text" placeholder="Имя*" id="name" name="name">
+              <input class="input input__lastname" type="text" placeholder="Отчество" id="lastname" name="lastname">
+            </div>
+            <div class="container__create-contact" id="create__contacts">
+            </div>
+            <button class="modal__contacts btn__reset" type="button" id="modal__contacts">
+              <span class="btn__span">
+                <svg class="svg__modal" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_224_8628)">
+                    <path
+                      d="M7.99998 4.66659C7.63331 4.66659 7.33331 4.96659 7.33331 5.33325V7.33325H5.33331C4.96665 7.33325 4.66665 7.63325 4.66665 7.99992C4.66665 8.36659 4.96665 8.66659 5.33331 8.66659H7.33331V10.6666C7.33331 11.0333 7.63331 11.3333 7.99998 11.3333C8.36665 11.3333 8.66665 11.0333 8.66665 10.6666V8.66659H10.6666C11.0333 8.66659 11.3333 8.36659 11.3333 7.99992C11.3333 7.63325 11.0333 7.33325 10.6666 7.33325H8.66665V5.33325C8.66665 4.96659 8.36665 4.66659 7.99998 4.66659ZM7.99998 1.33325C4.31998 1.33325 1.33331 4.31992 1.33331 7.99992C1.33331 11.6799 4.31998 14.6666 7.99998 14.6666C11.68 14.6666 14.6666 11.6799 14.6666 7.99992C14.6666 4.31992 11.68 1.33325 7.99998 1.33325ZM7.99998 13.3333C5.05998 13.3333 2.66665 10.9399 2.66665 7.99992C2.66665 5.05992 5.05998 2.66659 7.99998 2.66659C10.94 2.66659 13.3333 5.05992 13.3333 7.99992C13.3333 10.9399 10.94 13.3333 7.99998 13.3333Z" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_224_8628">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>Добавить контакт
+            </button>
+            <div class="errors" id="errors"></div>
+            <button class="modal__button btn__reset" type="submit" id="creatnewclients">Сохранить</button>
+          </form>
+          <button class="modal__reset btn__reset" id="button__reset" type="button">Отмена</button>
+        </div>
+      </div>
+      <div class="modal__two" id="modal__two">
+        <div class="modal__delete" id="modal__delete">
+          <div class="modal__container-two">
+            <h2 class="modal__delete-heading">Удалить Клиента</h2>
+            <button class="btn__reset modal__close-two" id="close">
+              <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22.2332 7.73333L21.2665 6.76666L14.4998 13.5334L7.73318 6.7667L6.76652 7.73336L13.5332 14.5L6.76654 21.2667L7.73321 22.2333L14.4998 15.4667L21.2665 22.2334L22.2332 21.2667L15.4665 14.5L22.2332 7.73333Z"
+                  fill="#B0B0B0" />
+              </svg>
+            </button>
+          </div>
+          <p class="modal__delete-text">Вы действительно хотите удалить данного клиента?</p>
+          <button class="btn__reset modal__button" id="modal__delete-btn">Удалить</button>
+          <button class="btn__reset modal__reset" id="modal__reset">Отмена</button>
+        </div>
+      </div>
+      <div class="modal__three" id="modal__three">
+        <div class="modal__change" id="modal-change">
+          <div class="modal__container-three">
+            <h2 class="modal__three-heading">Изменить данные</h2>
+            <p class="change__id" id="change__Id"></p>
+            <button class="button__three-closed btn__reset" id="closed__modal-svg">
+              <svg class="" width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M22.2333 7.73333L21.2666 6.76666L14.4999 13.5334L7.73324 6.7667L6.76658 7.73336L13.5332 14.5L6.7666 21.2667L7.73327 22.2333L14.4999 15.4667L21.2666 22.2334L22.2332 21.2667L15.4666 14.5L22.2333 7.73333Z"
+                  fill="#B0B0B0" />
+              </svg>
+            </button>
+          </div>
+          <form class="modal__form" id="modal__change-form">
+            <input class="input input__surname" type="text" placeholder="Фамилия*" id="surnames" name="surnames">
+            <input class="input input__name" type="text" placeholder="Имя*" id="names" name="names">
+            <input class="input input__lastname" type="text" placeholder="Отчество" id="lastnames" name="lastnames">
+            <div class="container__create-contacts" id="create__contact"></div>
+            <button class="modal__contacts btn__reset" type="button" id="modal__contact"><span class="btn__span">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_121_1688)">
+                    <path
+                      d="M8.00001 4.66667C7.63334 4.66667 7.33334 4.96667 7.33334 5.33333V7.33333H5.33334C4.96668 7.33333 4.66668 7.63333 4.66668 8C4.66668 8.36667 4.96668 8.66667 5.33334 8.66667H7.33334V10.6667C7.33334 11.0333 7.63334 11.3333 8.00001 11.3333C8.36668 11.3333 8.66668 11.0333 8.66668 10.6667V8.66667H10.6667C11.0333 8.66667 11.3333 8.36667 11.3333 8C11.3333 7.63333 11.0333 7.33333 10.6667 7.33333H8.66668V5.33333C8.66668 4.96667 8.36668 4.66667 8.00001 4.66667ZM8.00001 1.33333C4.32001 1.33333 1.33334 4.32 1.33334 8C1.33334 11.68 4.32001 14.6667 8.00001 14.6667C11.68 14.6667 14.6667 11.68 14.6667 8C14.6667 4.32 11.68 1.33333 8.00001 1.33333ZM8.00001 13.3333C5.06001 13.3333 2.66668 10.94 2.66668 8C2.66668 5.06 5.06001 2.66667 8.00001 2.66667C10.94 2.66667 13.3333 5.06 13.3333 8C13.3333 10.94 10.94 13.3333 8.00001 13.3333Z"
+                      fill="#9873FF" />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_121_1688">
+                      <rect width="16" height="16" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </span>Добавить контакт</button>
+            <div class="errors__change" id="errors__change"></div>
+            <button class="modal__button btn__reset" type="submit" id="changenewclients">Сохранить</button>
+          </form>
+          <button class="modal__reset btn__reset" id="closed__modal" type="button">Удалить клиента</button>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
